@@ -4,7 +4,8 @@
 	@include('alerts.request')
 	
 	<div class="container">
-		<h3>Eventos</h3>
+		<h1>Titulo principal</h1>
+		<h3>Titulo agregado</h3>
 		
 			@foreach($eventos as $event)
 			<div class="container">
